@@ -322,7 +322,10 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta01 = false
+function saudacao() {
+  return "Bom Dia!"
+}
+export const resposta01 = saudacao
 
 /* Questão 2
 Crie uma função chamada "dobro" que recebe um número como argumento e retorna 
@@ -330,8 +333,13 @@ o dobro desse número. Envie na resposta a função criada, sem executá-la (bas
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function dobro(numero) {
+  return numero * 2 
+}
+let resultado = dobro(74)
 
-export const resposta02 = false
+export const resposta02 = dobro
+
 
 /* Questão 3
 Crie uma função chamada "ehPositivo" que recebe um número como argumento e 
@@ -340,8 +348,13 @@ Envie na resposta a função criada, sem executá-la (basta enviar o nome
 da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function ehPositivo(numero2) {
+  if(numero2 >= 0) {
+    return true
+  } return false
+}
 
-export const resposta03 = false
+export const resposta03 = ehPositivo
 
 /* Questão 4
 Crie uma função chamada "nomeCompleto" que recebe dois argumentos: 

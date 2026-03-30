@@ -12,7 +12,7 @@ o nome dela. Em JavaScript, usamos a palavra-chave "function" para criar uma fun
 Vamos ver a sintaxe básica:
 
 function nomeDaFuncao() {
-  código a ser executado
+  	código a ser executado
 }
 
 Para "chamar" (executar) a função, escrevemos:
@@ -22,7 +22,7 @@ nomeDaFuncao()
 Exemplo básico:
 
 function dizerOla() {
-  console.log("Olá!")
+  	console.log("Olá!")
 }
 
 dizerOla()
@@ -44,7 +44,7 @@ criação da função.
 Veja o exemplo abaixo:
 
 function nomeDaFuncao(nomeDoArgumento) {
-  código que usa nomeDoArgumento
+  	código que usa nomeDoArgumento
 }
 
 nomeDaFuncao(valorQueSeraEnviado)
@@ -52,7 +52,7 @@ nomeDaFuncao(valorQueSeraEnviado)
 Exemplo:
 
 function cumprimentar(nome) {
-  console.log("Olá, " + nome + "!")
+  	console.log("Olá, " + nome + "!")
 }
 
 cumprimentar("Maria")
@@ -77,7 +77,7 @@ Vamos entender com um exemplo:
 let nomeDoUsuario = "Carlos"
 
 function cumprimentar(nome) {
-  console.log("Bem-vindo, " + nome)
+  	console.log("Bem-vindo, " + nome)
 }
 
 cumprimentar(nomeDoUsuario)
@@ -94,7 +94,7 @@ let aluno = "Ana"
 let professor = "Pedro"
 
 function mostrarNome(pessoa) {
-  console.log("Nome: " + pessoa)
+  	console.log("Nome: " + pessoa)
 }
 
 mostrarNome(aluno)     // imprime "Nome: Ana"
@@ -112,7 +112,7 @@ MÚLTIPLOS ARGUMENTOS
 Uma função pode receber mais de um argumento. Separamos os parâmetros por vírgula:
 
 function somar(a, b) {
-  console.log(a + b)
+  	console.log(a + b)
 }
 
 somar(5, 3)  // imprime 8
@@ -121,7 +121,7 @@ somar(10, 7) // imprime 17
 A ordem dos argumentos importa:
 
 function apresentar(nome, idade) {
-  console.log(nome + " tem " + idade + " anos")
+  	console.log(nome + " tem " + idade + " anos")
 }
 
 apresentar("Julia", 25)  // imprime "Julia tem 25 anos"
@@ -142,13 +142,13 @@ O "return" faz duas coisas:
 Sintaxe:
 
 function nomeDaFuncao() {
-  return valor
+  	return valor
 }
 
 Exemplo:
 
 function dobrar(numero) {
-  return numero * 2
+  	return numero * 2
 }
 
 let resultado = dobrar(5)
@@ -166,7 +166,7 @@ CASOS DE USO
 1. Função simples sem argumentos:
 
 function mostrarData() {
-  console.log("Hoje é 29/03/2026")
+  	console.log("Hoje é 29/03/2026")
 }
 
 mostrarData()
@@ -176,11 +176,11 @@ mostrarData()
 2. Função com argumento:
 
 function verificarMaioridade(idade) {
-  if (idade >= 18) {
-    console.log("Maior de idade")
-  } else {
-    console.log("Menor de idade")
-  }
+  	if (idade >= 18) {
+    	console.log("Maior de idade")
+  	} else {
+    	console.log("Menor de idade")
+  	}
 }
 
 verificarMaioridade(20)
@@ -191,7 +191,7 @@ verificarMaioridade(15)
 3. Função com retorno:
 
 function calcularArea(base, altura) {
-  return base * altura
+  	return base * altura
 }
 
 let area1 = calcularArea(5, 3)
@@ -204,7 +204,7 @@ console.log(area2)  // 40
 4. Função com retorno usada diretamente:
 
 function juntarNomes(primeiro, segundo) {
-  return primeiro + " " + segundo
+  	return primeiro + " " + segundo
 }
 
 console.log(juntarNomes("Ana", "Silva"))
@@ -214,8 +214,8 @@ console.log(juntarNomes("Ana", "Silva"))
 5. Função que modifica um valor e retorna:
 
 function aplicarDesconto(preco, percentual) {
-  let desconto = preco * (percentual / 100)
-  return preco - desconto
+  	let desconto = preco * (percentual / 100)
+  	return preco - desconto
 }
 
 let precoOriginal = 100
@@ -227,7 +227,7 @@ console.log(precoComDesconto)  // 90
 6. Função que verifica condição e retorna booleano:
 
 function ehPar(numero) {
-  return numero % 2 === 0
+  	return numero % 2 === 0
 }
 
 console.log(ehPar(4))  // true
@@ -238,15 +238,15 @@ console.log(ehPar(7))  // false
 7. Função que processa lista e retorna nova lista:
 
 function dobrarValores(lista) {
-  let novaLista = []
-  let indice = 0
+  	let novaLista = []
+  	let indice = 0
   
-  while (indice < lista.length) {
-    novaLista.push(lista[indice] * 2)
-    indice = indice + 1
-  }
+  	while (indice < lista.length) {
+    	novaLista.push(lista[indice] * 2)
+    	indice = indice + 1
+  	}
   
-  return novaLista
+  	return novaLista
 }
 
 let numeros = [1, 2, 3, 4]
@@ -258,10 +258,10 @@ console.log(numerosDobrados)  // [2, 4, 6, 8]
 8. Função que retorna baseado em condição:
 
 function maiorNumero(a, b) {
-  if (a > b) {
-    return a
-  }
-  return b
+  	if (a > b) {
+    	return a
+  	}
+  	return b
 }
 
 console.log(maiorNumero(10, 5))   // 10
@@ -275,8 +275,8 @@ Quando uma função encontra um "return", ela para imediatamente e devolve
 o valor. Qualquer código após o return NÃO é executado:
 
 function exemplo() {
-  return "acabei"
-  console.log("isso nunca aparece")
+  	return "acabei"
+  	console.log("isso nunca aparece")
 }
 
 console.log(exemplo())  // apenas imprime "acabei"
@@ -285,13 +285,13 @@ Uma função pode ter múltiplos returns (em diferentes caminhos condicionais),
 mas apenas um será executado:
 
 function avaliarNota(nota) {
-  if (nota >= 7) {
-    return "Aprovado"
-  }
-  if (nota >= 5) {
-    return "Recuperação"
-  }
-  return "Reprovado"
+	if (nota >= 7) {
+    	return "Aprovado"
+  	}
+  	if (nota >= 5) {
+    	return "Recuperação"
+ 	}
+  	return "Reprovado"
 }
 
 console.log(avaliarNota(8))  // "Aprovado"
@@ -321,8 +321,11 @@ a string "Bom dia!". Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function saudacao() {
+	return "Bom dia!"
+}
 
-export const resposta01 = false
+export const resposta01 = saudacao
 
 /* Questão 2
 Crie uma função chamada "dobro" que recebe um número como argumento e retorna 
@@ -330,8 +333,9 @@ o dobro desse número. Envie na resposta a função criada, sem executá-la (bas
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const dobro = x => x * 2
 
-export const resposta02 = false
+export const resposta02 = dobro
 
 /* Questão 3
 Crie uma função chamada "ehPositivo" que recebe um número como argumento e 
@@ -340,8 +344,9 @@ Envie na resposta a função criada, sem executá-la (basta enviar o nome
 da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const ehPositivo = x => x > 0
 
-export const resposta03 = false
+export const resposta03 = ehPositivo
 
 /* Questão 4
 Crie uma função chamada "nomeCompleto" que recebe dois argumentos: 
@@ -350,29 +355,31 @@ um espaço. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const nomeCompleto = (primeiroNome, sobrenome) => primeiroNome + " " + sobrenome
 
-export const resposta04 = false
+export const resposta04 = nomeCompleto
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [
-  "Três pratos de trigo para três tigres tristes",
-  "O rato roeu a roupa do rei de Roma",
-  "A aranha arranha a rama, a rama arranha a aranha",
-  "Fui ao fundo do poço buscar um pouco de aço, mas no fundo do poço não havia aço nenhum",
-  "O sábio não diz o que sabe, o tolo não sabe o que diz",
-  "Papo de papa-pipa, pipa de papa-papo",
-  "Um prato de trigo para dois tigres tristes"
+  	"Três pratos de trigo para três tigres tristes",
+ 	"O rato roeu a roupa do rei de Roma",
+  	"A aranha arranha a rama, a rama arranha a aranha",
+  	"Fui ao fundo do poço buscar um pouco de aço, mas no fundo do poço não havia aço nenhum",
+  	"O sábio não diz o que sabe, o tolo não sabe o que diz",
+  	"Papo de papa-pipa, pipa de papa-papo",
+  	"Um prato de trigo para dois tigres tristes"
 ]
 
 /* Questão 5
-Crie uma função chamada "contarTravaLinguas" que a lista de travaLinguas 
+Crie uma função chamada "contarTravaLinguas" que recebe a lista de travaLinguas 
 como argumento e retorna a quantidade total de trava-línguas (use a 
 propriedade .length). Envie na resposta a função criada, sem executá-la 
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const contarTravaLinguas = listaTravaLingua => listaTravaLingua.length
 
-export const resposta05 = false
+export const resposta05 = contarTravaLinguas
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 
@@ -382,8 +389,9 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const obterTravaLingua = indice => travaLinguas[indice]
 
-export const resposta06 = false
+export const resposta06 = obterTravaLingua
 
 /* Questão 7
 Crie uma função chamada "contarPalavrasTravaLingua" que recebe um 
@@ -394,8 +402,9 @@ Este método retorna uma lista. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const contarPalavrasTravaLingua = indice => obterTravaLingua(indice).split(" ").length
 
-export const resposta07 = false
+export const resposta07 = contarPalavrasTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -407,25 +416,26 @@ Envie na resposta a função criada, sem executá-la (basta enviar
 o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const buscarTravaLinguasComPalavra = palavra => travaLinguas.filter((travaLingua) => travaLingua.includes(palavra))
 
-export const resposta08 = false
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
-  { nome: "Hidrogênio", numeroAtomico: 1 },
-  { nome: "Hélio", numeroAtomico: 2 },
-  { nome: "Lítio", numeroAtomico: 3 },
-  { nome: "Berílio", numeroAtomico: 4 },
-  { nome: "Boro", numeroAtomico: 5 },
-  { nome: "Carbono", numeroAtomico: 6 },
-  { nome: "Nitrogênio", numeroAtomico: 7 },
-  { nome: "Oxigênio", numeroAtomico: 8 },
-  { nome: "Flúor", numeroAtomico: 9 },
-  { nome: "Neônio", numeroAtomico: 10 },
-  { nome: "Sódio", numeroAtomico: 11 },
-  { nome: "Magnésio", numeroAtomico: 12 },
-  { nome: "Alumínio", numeroAtomico: 13 },
-  { nome: "Silício", numeroAtomico: 14 }
+  	{ nome: "Hidrogênio", numeroAtomico: 1 },
+  	{ nome: "Hélio", numeroAtomico: 2 },
+  	{ nome: "Lítio", numeroAtomico: 3 },
+  	{ nome: "Berílio", numeroAtomico: 4 },
+  	{ nome: "Boro", numeroAtomico: 5 },
+  	{ nome: "Carbono", numeroAtomico: 6 },
+  	{ nome: "Nitrogênio", numeroAtomico: 7 },
+  	{ nome: "Oxigênio", numeroAtomico: 8 },
+  	{ nome: "Flúor", numeroAtomico: 9 },
+  	{ nome: "Neônio", numeroAtomico: 10 },
+  	{ nome: "Sódio", numeroAtomico: 11 },
+  	{ nome: "Magnésio", numeroAtomico: 12 },
+  	{ nome: "Alumínio", numeroAtomico: 13 },
+  	{ nome: "Silício", numeroAtomico: 14 }
 ]
 
 /* Questão 9
@@ -435,8 +445,9 @@ lista. Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const contarElementos = listaElemento => listaElemento.length
 
-export const resposta09 = false
+export const resposta09 = contarElementos
 
 /* Questão 10
 Crie uma função chamada "buscarPorNumeroAtomico" que recebe dois 
@@ -446,8 +457,9 @@ ou null se não encontrar. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const buscarPorNumeroAtomico = (listaElemento, numAtomico) => listaElemento.filter((elemento) => elemento.numeroAtomico === numAtomico)[0] || null
 
-export const resposta10 = false
+export const resposta10 = buscarPorNumeroAtomico
 
 /* Questão 11
 Crie uma função chamada "listarNomesElementos" que recebe a lista 
@@ -457,8 +469,15 @@ resposta a função criada, sem executá-la (basta enviar o
 nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const listarNomesElementos = function(listaElemento) {
+	const listaNomesElementos = []
+	for (let elemento of listaElemento)
+		listaNomesElementos.push(elemento.nome)
 
-export const resposta11 = false
+	return listaNomesElementos
+}
+
+export const resposta11 = listarNomesElementos
 
 /* Questão 12
 Crie uma função chamada "elementosComNumeroPar" que recebe a lista 
@@ -468,5 +487,6 @@ resposta a função criada, sem executá-la (basta enviar o nome da
 função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+const elementosComNumeroPar = listaElemento => listaElemento.filter((elemento) => elemento.numeroAtomico % 2 == 0)
 
-export const resposta12 = false
+export const resposta12 = elementosComNumeroPar

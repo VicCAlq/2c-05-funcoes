@@ -321,8 +321,10 @@ a string "Bom dia!". Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta01 = false
+function saudacao() {
+  console.log("Bom dia!")
+} 
+export const resposta01 = saudacao
 
 /* Questão 2
 Crie uma função chamada "dobro" que recebe um número como argumento e retorna 
@@ -330,8 +332,11 @@ o dobro desse número. Envie na resposta a função criada, sem executá-la (bas
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta02 = false
+function dobro(n) {
+  n = n * 2
+  return n
+}
+export const resposta02 = dobro
 
 /* Questão 3
 Crie uma função chamada "ehPositivo" que recebe um número como argumento e 
@@ -341,7 +346,14 @@ da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+function ehPositivo(num){
+  if (num > 0) {
+    return true
+  } else {
+    return false
+  }
+}
+export const resposta03 = ehPositivo
 
 /* Questão 4
 Crie uma função chamada "nomeCompleto" que recebe dois argumentos: 
@@ -350,8 +362,11 @@ um espaço. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function nomeCompleto(primeiroNome, sobrenome) {
+  return (primeiroNome ) + (sobrenome)
+}
 
-export const resposta04 = false
+export const resposta04 = nomeCompleto
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [
@@ -371,8 +386,10 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta05 = false
+function contarTravaLinguas(travaLinguas){
+  return travaLinguas.lenght
+}
+export const resposta05 = contarTravaLinguas
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 

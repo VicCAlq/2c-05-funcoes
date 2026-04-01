@@ -321,8 +321,12 @@ a string "Bom dia!". Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function saudacao() {
+    return "Bom Dia!";
+}
 
-export const resposta01 = false
+console.log(saudacao());
+export const resposta01 = saudacao;
 
 /* Questão 2
 Crie uma função chamada "dobro" que recebe um número como argumento e retorna 
@@ -330,8 +334,13 @@ o dobro desse número. Envie na resposta a função criada, sem executá-la (bas
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function dobro(num){
+    return num * 2;
+}
 
-export const resposta02 = false
+console.log(dobro(5));
+
+export const resposta02 = dobro;
 
 /* Questão 3
 Crie uma função chamada "ehPositivo" que recebe um número como argumento e 
@@ -340,8 +349,17 @@ Envie na resposta a função criada, sem executá-la (basta enviar o nome
 da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function ehPositivo(numero){
+    if(numero > 2){
+        return "True";
+    } else {
+        return "False";
+    }
+}
 
-export const resposta03 = false
+console.log(ehPositivo(3));
+
+export const resposta03 = ehPositivo;
 
 /* Questão 4
 Crie uma função chamada "nomeCompleto" que recebe dois argumentos: 
@@ -350,8 +368,12 @@ um espaço. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function nomeCompleto(primeiroNome, sobrenome){
+    return primeiroNome + " " + sobrenome;
+}
 
-export const resposta04 = false
+console.log(nomeCompleto("Maria", "Silva"));
+export const resposta04 = nomeCompleto;
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [
@@ -371,8 +393,12 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function contarTravaLinguas(travaLinguas) {
+    return travaLinguas.length;
+}
 
-export const resposta05 = false
+console.log(contarTravaLinguas(travaLinguas));
+export const resposta05 = contarTravaLinguas;
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 
@@ -382,8 +408,12 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function obterTravaLingua(travaLinguas, indice) {
+    return travaLinguas[indice];
+}
 
-export const resposta06 = false
+console.log(obterTravaLinguas(travaLinguas, 2));
+export const resposta06 = obterTravaLingua;
 
 /* Questão 7
 Crie uma função chamada "contarPalavrasTravaLingua" que recebe um 
@@ -394,8 +424,14 @@ Este método retorna uma lista. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function contarPalavrasTravaLingua(indice) {
+  const frase = travaLinguas[indice];
+  const palavras = frase.split(" ");
+  return palavras.length;
+}
 
-export const resposta07 = false
+console.log(contarPalavrasTravaLingua(0));
+export const resposta07 = contarPalavrasTravaLingua;
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -407,8 +443,21 @@ Envie na resposta a função criada, sem executá-la (basta enviar
 o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function buscarpalavraTravaLingua(palavra) {
+    let lugar = 0;
+    let novoArray = [];
+    while(lugar <= travaLinguas.length - 1){
+        if(travaLinguas[lugar].includes(palavra)){
+            novoArray.push(travaLinguas[lugar]);
+        }
+        lugar++;
+    }
+    return novoArray;
+}
 
-export const resposta08 = false
+console.log(buscarpalavraTravaLingua("trigo"));
+
+export const resposta08 = buscarpalavraTravaLingua;
 
 // Lista para as questões 9 a 12
 export const elementos = [
@@ -435,8 +484,12 @@ lista. Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function contarElementos(elementos){
+    return elementos.length;
+}
 
-export const resposta09 = false
+console.log(contarElementos(elementos));
+export const resposta09 = contarElementos;
 
 /* Questão 10
 Crie uma função chamada "buscarPorNumeroAtomico" que recebe dois 
@@ -446,8 +499,13 @@ ou null se não encontrar. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function buscarElementoPorNumeroAtomico(elementos, numeroAtomico){
+    return elementos.find(elemento => elemento.numeroAtomico === numeroAtomico);
+}
 
-export const resposta10 = false
+console.log(buscarElementoPorNumeroAtomico(elementos, 6));
+
+export const resposta10 = buscarElementoPorNumeroAtomico;
 
 /* Questão 11
 Crie uma função chamada "listarNomesElementos" que recebe a lista 
@@ -457,8 +515,12 @@ resposta a função criada, sem executá-la (basta enviar o
 nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function listarNomesElementos(elementos){
+    return elementos.map(elemento => elemento.nome);
+}
 
-export const resposta11 = false
+console.log(listarNomesElementos(elementos));
+export const resposta11 = listarNomesElementos;
 
 /* Questão 12
 Crie uma função chamada "elementosComNumeroPar" que recebe a lista 
@@ -468,5 +530,15 @@ resposta a função criada, sem executá-la (basta enviar o nome da
 função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function elementosComNumeroPar(elementos){
+    let umArray = [];
+    for(let elementinhos of elementos){
+        if(elementinhos.numeroAtomico % 2 === 0){
+            umArray.push(elementinhos);
+        }
+    }
+    return umArray;
+}
 
-export const resposta12 = false
+console.log(elementosComNumeroPar(elementos));
+export const resposta12 = elementosComNumeroPar;

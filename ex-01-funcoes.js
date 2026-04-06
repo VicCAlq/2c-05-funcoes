@@ -351,7 +351,7 @@ function ehPositivo (num){
   {
     return true
     } 
-    
+   else 
    {  
     return false
     }

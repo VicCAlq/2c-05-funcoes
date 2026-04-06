@@ -315,13 +315,6 @@ Questões 01 a 12: Funções
 MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 9 questões
 */
 
-javascript
-/*
-Assunto 01 - Funções, Argumentos e Retornos
-
-[... conteúdo da aula ...]
-*/
-
 /* Questão 1
 Crie uma função chamada "saudacao" que não recebe nenhum argumento e retorna 
 a string "Bom dia!". Envie na resposta a função criada, sem executá-la (basta 

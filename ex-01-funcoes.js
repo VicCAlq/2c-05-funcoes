@@ -321,7 +321,7 @@ a string "Bom dia!". Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function saudacao (){
+function saudacao(){
   "Bom dia!"
 }
 

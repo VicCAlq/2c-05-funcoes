@@ -346,8 +346,19 @@ Envie na resposta a função criada, sem executá-la (basta enviar o nome
 da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function ehPositivo (num){
+    if(num > 0)
+  {
+    return true
+    } 
+    
+   {  
+    return false
+    }
+             }
+             let num = 4
 
-export const resposta03 = false
+export const resposta03 = ehPositivo
 
 /* Questão 4
 Crie uma função chamada "nomeCompleto" que recebe dois argumentos: 

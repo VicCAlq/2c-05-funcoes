@@ -324,6 +324,8 @@ enviar o nome da função sem os parênteses)
 function saudacao() {
   return "Bom dia!";
 }
+
+console.log(saudacao())
 export const resposta01 = saudacao;
 
 /* Questão 2
@@ -335,6 +337,8 @@ enviar o nome da função sem os parênteses)
 function dobro(numero) {
   return numero * 2;
 }
+
+console.log(dobro(2));
 export const resposta02 = dobro;
 
 /* Questão 3
@@ -345,8 +349,14 @@ da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function ehPositivo(numero) {
-  return numero > 0;
+  if(numero > 0){
+    return true;
+  } else {
+    return false;
+  }
 }
+
+console.log(ehPositivo(3))
 export const resposta03 = ehPositivo;
 
 /* Questão 4

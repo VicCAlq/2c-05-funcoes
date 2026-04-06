@@ -502,10 +502,10 @@ executá-la (basta enviar o nome da função sem os parênteses)
 function buscarElementoPorNumeroAtomico(elementos, numeroAtomico){
   for (let elemento of elementos) {
     if (elemento.numeroAtomico === numeroAtomico) {
-      return elemento
+      return elemento;
     }
   }
-  return null
+  return null;
 }
 
 console.log(buscarElementoPorNumeroAtomico(elementos, 6));

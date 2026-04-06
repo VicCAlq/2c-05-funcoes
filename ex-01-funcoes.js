@@ -324,7 +324,8 @@ enviar o nome da função sem os parênteses)
 function saudacao() {
   return "Bom Dia!"
 }
-export const resposta01 = saudacao()
+export const resposta01 = saudacao
+//VISTO
 
 /* Questão 2
 Crie uma função chamada "dobro" que recebe um número como argumento e retorna 
@@ -336,6 +337,7 @@ function dobro(numero) {
   return numero * 2
 }
 export const resposta02 = dobro
+//VISTO
 
 /* Questão 3
 Crie uma função chamada "ehPositivo" que recebe um número como argumento e 
@@ -347,7 +349,8 @@ da função sem os parênteses)
 function ehPositivo(numero) {
   return numero > 0
 }
-export const resposta03 = false
+export const resposta03 = ehPositivo
+//VISTO
 
 /* Questão 4
 Crie uma função chamada "nomeCompleto" que recebe dois argumentos: 
@@ -357,7 +360,7 @@ um espaço. Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 function nomeCompleto(primeiroNome, sobrenome) {
-  return primeiroNome + " " + sobrenome
+  return `${primeiroNome} ${sobrenome}`
 }
 export const resposta04 = nomeCompleto
 
@@ -380,7 +383,7 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 function contarTravaLinguas(lista) {
-  return lista.length - 1
+  return lista.length
 }
 export const resposta05 = contarTravaLinguas
 

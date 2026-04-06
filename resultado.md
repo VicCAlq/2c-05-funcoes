@@ -1,17 +1,6 @@
-Data de atualização: Dia 04/04/2026 às 15:58:40
+Data de atualização: Dia 05/04/2026 às 21:54:07
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-|  1 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected 'Bom Dia!' to deeply equal 'Bom dia!' |
-|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected 'João,Silva undefined' to deeply equal 'João Silva' |
-|  5 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  6 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  7 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-| 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-| 11 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-| 12 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension. |

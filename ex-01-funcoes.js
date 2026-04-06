@@ -363,6 +363,7 @@ function nomeCompleto(primeiroNome, sobrenome) {
   return `${primeiroNome} ${sobrenome}`
 }
 export const resposta04 = nomeCompleto
+// VISTO
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [
@@ -386,6 +387,7 @@ function contarTravaLinguas(lista) {
   return lista.length
 }
 export const resposta05 = contarTravaLinguas
+// sa- VISTO
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 
@@ -399,6 +401,7 @@ function obterTravaLingua(numero) {
   return travaLinguas[numero - 1]
 }
 export const resposta06 = obterTravaLingua
+//VISTO
 
 /* Questão 7
 Crie uma função chamada "contarPalavrasTravaLingua" que recebe um 
@@ -426,8 +429,10 @@ o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function buscarTravaLinguasComPalavra(word) {
-  for(palavra in travaLinguas) {
-
+  for(travaLingua in travaLinguas) {
+    if(travaLingua.includes(word)) {
+      return travalingua
+    }
   }
 }
 export const resposta08 = false

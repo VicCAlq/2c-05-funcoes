@@ -431,10 +431,11 @@ o nome da função sem os parênteses)
 // Escreva o código da solução abaixo:
 function buscarTravaLinguasComPalavra(word) {
     const newTrava = []
+    const wordFind = ` ${word}`
     let ind = 0
 
     while (ind < travaLinguas.length) {
-        if (travaLinguas[ind].includes(word)) {
+        if (travaLinguas[ind].includes(wordFind)) {
             newTrava.push(travaLinguas[ind])
         }
 
@@ -443,6 +444,7 @@ function buscarTravaLinguasComPalavra(word) {
 
     return newTrava
 }
+
 export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12

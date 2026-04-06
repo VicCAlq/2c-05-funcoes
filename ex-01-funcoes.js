@@ -323,7 +323,7 @@ enviar o nome da função sem os parênteses)
 // Escreva o código da solução abaixo:
 
 function saudacao() {
-  console.log("Bom dia!")
+  return "Bom dia!"
 } 
 export const resposta01 = saudacao
 
@@ -537,7 +537,7 @@ function elementosComNumeroPar(elementos) {
   let indices = 0
   while (indices < elementos.length) {
     if (elementos[indices].numeroAtomico % 2 === 0) {
-      pares.push(elementos[indices].nome)
+      pares.push(elementos[indices])
     }
     indices++
   }

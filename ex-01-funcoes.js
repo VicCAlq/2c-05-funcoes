@@ -466,7 +466,7 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 const buscarPorNumeroAtomico = (listaElemento, numAtomico) => {
-	return listaElemento.filter(elemento => elemento.numeroAtomico == numAtomico)[0] || null
+	return listaElemento.find(elemento => elemento.numeroAtomico == numAtomico) || null
 }
 
 export const resposta10 = buscarPorNumeroAtomico

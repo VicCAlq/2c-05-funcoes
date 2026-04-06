@@ -321,8 +321,12 @@ a string "Bom dia!". Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function saudação (){
+  "Bom dia!"
+}
 
-export const resposta01 = false
+
+export const resposta01 = saudação
 
 /* Questão 2
 Crie uma função chamada "dobro" que recebe um número como argumento e retorna 

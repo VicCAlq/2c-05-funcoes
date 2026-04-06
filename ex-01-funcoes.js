@@ -522,14 +522,14 @@ função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function elementosComNumeroPar(elementos) {
-  let pares = []
+  let par = []
   let indices = 0
   while (indices < elementos.length) {
     if (elementos[indices].numeroAtomico % 2 === 0) {
-      pares.push(elementos[indices].nome)
+      par.push(elementos[indices].nome)
     }
     indices++
   }
-  return pares
+  return par
 }
 export const resposta12 = elementosComNumeroPar

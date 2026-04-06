@@ -321,8 +321,10 @@ a string "Bom dia!". Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta01 = false
+function saudacao() {
+  return "Bom dia!"
+}  
+export const resposta01 = saudacao
 
 /* Questão 2
 Crie uma função chamada "dobro" que recebe um número como argumento e retorna 
@@ -330,8 +332,11 @@ o dobro desse número. Envie na resposta a função criada, sem executá-la (bas
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta02 = false
+function dobro(num) {
+  num = num * 2
+  return num
+}
+export const resposta02 = dobro
 
 /* Questão 3
 Crie uma função chamada "ehPositivo" que recebe um número como argumento e 
@@ -340,8 +345,14 @@ Envie na resposta a função criada, sem executá-la (basta enviar o nome
 da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta03 = false
+function ehPositivo(num) {
+  if(num > 0){
+    return(true)
+  } else {
+    return(false)
+  }
+}
+export const resposta03 = ehPositivo
 
 /* Questão 4
 Crie uma função chamada "nomeCompleto" que recebe dois argumentos: 
@@ -350,8 +361,11 @@ um espaço. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function nomeCompleto(primeiroNome, sobrenome) {
+  return primeiroNome + " " + sobrenome
+}
 
-export const resposta04 = false
+export const resposta04 = nomeCompleto
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [
@@ -371,8 +385,10 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta05 = false
+function contarTravaLinguas(lista) {
+  return lista.length
+}
+export const resposta05 = contarTravaLinguas
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 
@@ -382,8 +398,10 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta06 = false
+function obterTravaLingua(lista, num) {
+  return lista[num]
+}
+export const resposta06 = obterTravaLingua  
 
 /* Questão 7
 Crie uma função chamada "contarPalavrasTravaLingua" que recebe um 
@@ -394,8 +412,10 @@ Este método retorna uma lista. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta07 = false
+function contarPalavrasTravaLingua(lista, num) {
+    return lista[num].split(" ").length
+}
+export const resposta07 = contarPalavrasTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -408,7 +428,21 @@ o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+function buscarTravaLinguasComPalavra(lista, palavra) {
+  let resultado = [];
+  let i = 0;
+
+  while (i < lista.length) {
+    if (lista[i].includes(palavra)) {
+      resultado.push(lista[i]);
+    }
+    i++;
+  }
+
+  return resultado;
+}
+
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
@@ -436,7 +470,11 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta09 = false
+function contarElementos(lista) {
+  return lista.length;
+}
+
+export const resposta09 = contarElementos
 
 /* Questão 10
 Crie uma função chamada "buscarPorNumeroAtomico" que recebe dois 
@@ -447,7 +485,19 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta10 = false
+function buscarPorNumeroAtomico(lista, numero) {
+  let i = 0;
+
+  while (i < lista.length) {
+    if (lista[i].numeroAtomico === numero) {
+      return lista[i];
+    }
+    i++;
+  }
+
+  return null;
+}
+export const resposta10 = buscarPorNumeroAtomico;
 
 /* Questão 11
 Crie uma função chamada "listarNomesElementos" que recebe a lista 
@@ -457,8 +507,19 @@ resposta a função criada, sem executá-la (basta enviar o
 nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function listarNomesElementos(lista) {
+  let nomes = [];
+  let i = 0;
 
-export const resposta11 = false
+  while (i < lista.length) {
+    nomes.push(lista[i].nome);
+    i++;
+  }
+
+  return nomes;
+}
+export const resposta11 = listarNomesElementos;
+
 
 /* Questão 12
 Crie uma função chamada "elementosComNumeroPar" que recebe a lista 

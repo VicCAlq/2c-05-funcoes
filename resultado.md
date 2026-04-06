@@ -1,6 +1,17 @@
-Data de atualização: Dia 05/04/2026 às 21:51:59
+Data de atualização: Dia 06/04/2026 às 10:58:43
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | obterTravaLinguas is not defined |
+|  1 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected 'Bom Dia!' to deeply equal 'Bom dia!' |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected 'True' to deeply equal true |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected undefined to deeply equal 'Três pratos de trigo para três tigres…' |
+|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected [ …(3) ] to deeply equal [ Array(1) ] |
+|  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected undefined to deeply equal null |
+| 11 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 12 | Ex 01 | ✅ | ✅ | Nenhum erro |

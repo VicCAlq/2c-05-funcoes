@@ -429,13 +429,15 @@ o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function buscarTravaLinguasComPalavra(word) {
-  for(travaLingua in travaLinguas) {
-    if(travaLingua.includes(word)) {
-      return travalingua
+  let listaSafadinhex = []
+  for (let travaLingua of travaLinguas) {
+    if (travaLingua.includes(word)) {
+      listaSafadinhex.push(travaLingua)
     }
   }
+  return listaSafadinhex
 }
-export const resposta08 = false
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
@@ -465,7 +467,7 @@ enviar o nome da função sem os parênteses)
 function contarElementos(lista) {
   return lista.length
 }
-export const resposta09 = false
+export const resposta09 = contarElementos
 
 /* Questão 10
 Crie uma função chamada "buscarPorNumeroAtomico" que recebe dois 

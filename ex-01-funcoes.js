@@ -333,8 +333,11 @@ o dobro desse número. Envie na resposta a função criada, sem executá-la (bas
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function dobro(num){
+  return num * 2
+}
 
-export const resposta02 = false
+export const resposta02 = dobro
 
 /* Questão 3
 Crie uma função chamada "ehPositivo" que recebe um número como argumento e 

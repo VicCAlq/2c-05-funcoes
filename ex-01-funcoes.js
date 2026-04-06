@@ -322,7 +322,7 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function saudacao() {
-  console.log("Bom dia!")
+  return "Bom dia!"
 } 
 export const resposta01 = saudacao
 
@@ -363,7 +363,7 @@ um espaço. Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 function nomeCompleto(primeiroNome, sobrenome) {
-  return (primeiroNome ) + (sobrenome)
+  return primeiroNome + " " + sobrenome;
 }
 
 export const resposta04 = nomeCompleto
@@ -386,8 +386,8 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function contarTravaLinguas(travaLinguas){
-  return travaLinguas.lenght
+function contarTravaLinguas(lista) {
+  return lista.length;
 }
 export const resposta05 = contarTravaLinguas
 

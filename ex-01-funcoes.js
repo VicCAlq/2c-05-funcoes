@@ -388,7 +388,7 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 function contarTravaLinguas(lista) {
   return lista.length
 }
-export const resposta05 = false
+export const resposta05 = contarTravaLinguas
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 
@@ -415,7 +415,7 @@ executá-la (basta enviar o nome da função sem os parênteses)
 function contarPalavrasTravaLingua(lista, num) {
     return lista[num].split(" ").length
 }
-export const resposta07 = false
+export const resposta07 = contarPalavrasTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 

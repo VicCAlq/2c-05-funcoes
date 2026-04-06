@@ -322,7 +322,7 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function saudacao() {
-    return "Bom Dia!";
+    return "Bom dia!";
 }
 
 console.log(saudacao());
@@ -351,9 +351,9 @@ da função sem os parênteses)
 // Escreva o código da solução abaixo:
 function ehPositivo(numero){
     if(numero > 2){
-        return "True";
+        return "true";
     } else {
-        return "False";
+        return "false";
     }
 }
 
@@ -408,11 +408,11 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function obterTravaLingua(travaLinguas, indice) {
+function obterTravaLingua(indice) {
     return travaLinguas[indice];
     }
 
-console.log(obterTravaLingua(travaLinguas, 2));
+console.log(obterTravaLingua(0));
 export const resposta06 = obterTravaLingua;
 
 /* Questão 7
@@ -500,7 +500,12 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function buscarElementoPorNumeroAtomico(elementos, numeroAtomico){
-    return elementos.find(elemento => elemento.numeroAtomico === numeroAtomico);
+  for (let elemento of elementos) {
+    if (elemento.numeroAtomico === numeroAtomico) {
+      return elemento
+    }
+  }
+  return null
 }
 
 console.log(buscarElementoPorNumeroAtomico(elementos, 6));

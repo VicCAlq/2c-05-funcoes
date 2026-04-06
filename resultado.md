@@ -1,7 +1,17 @@
-Data de atualização: Dia 06/04/2026 às 11:14:02
+Data de atualização: Dia 06/04/2026 às 11:15:53
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: Expected ',', got 'string literal'
-At file: /ex01.test.js:101:13 |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected undefined to deeply equal 'Três pratos de trigo para três tigres…' |
+|  7 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
+|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
+|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
+| 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
+| 11 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
+| 12 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |

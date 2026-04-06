@@ -322,7 +322,7 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function saudacao() {
-  console.log("Bom dia!")
+  return "Bom dia!"
 } 
 export const resposta01 = saudacao
 

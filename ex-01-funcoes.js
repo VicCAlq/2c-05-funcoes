@@ -323,7 +323,7 @@ enviar o nome da função sem os parênteses)
 // Escreva o código da solução abaixo:
 function saudacao() {
   return "Bom dia!"
-} 
+}
 export const resposta01 = saudacao
 
 /* Questão 2
@@ -346,7 +346,7 @@ da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-function ehPositivo(num){
+function ehPositivo(num) {
   if (num > 0) {
     return true
   } else {
@@ -385,7 +385,7 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function contarTravaLinguas(travaLinguas){
+function contarTravaLinguas(travaLinguas) {
   return travaLinguas.length
 }
 export const resposta05 = contarTravaLinguas
@@ -412,7 +412,7 @@ Este método retorna uma lista. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function contarPalavrasTravaLingua(indice){
+function contarPalavrasTravaLingua(indice) {
   let travalingua = travaLinguas[indice]
   let palavras = travalingua.split(" ")
   return palavras.length
@@ -490,7 +490,6 @@ function buscarPorNumeroAtomico(elementos, numero) {
   }
   return null;
 }
-
 export const resposta10 = buscarPorNumeroAtomico
 
 
@@ -526,7 +525,7 @@ function elementosComNumeroPar(elementos) {
   let indices = 0
   while (indices < elementos.length) {
     if (elementos[indices].numeroAtomico % 2 === 0) {
-      par.push(elementos[indices].nome)
+      par.push(elementos[indices])
     }
     indices++
   }

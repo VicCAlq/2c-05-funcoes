@@ -399,8 +399,10 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta06 = false
+function obterTravaLingua(i){
+return travaLinguas[i]
+}
+export const resposta06 = obterTravaLingua()
 
 /* Questão 7
 Crie uma função chamada "contarPalavrasTravaLingua" que recebe um 
@@ -411,8 +413,12 @@ Este método retorna uma lista. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta07 = false
+function contarPalavrasTravaLingua(indice){
+  let travalingua = travaLinguas[indice]
+  let palavras = travalingua.split(" ")
+  return palavras.length
+}
+export const resposta07 = contarPalavrasTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -424,8 +430,18 @@ Envie na resposta a função criada, sem executá-la (basta enviar
 o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta08 = false
+function buscarTravaLinguasComPalavra(palavra) {
+  let resultado = []
+  let i = 0
+  while (i < travaLinguas.length) {
+    if (travaLinguas[i].includes(palavra)) {
+      resultado.push(travaLinguas[i])
+    }
+    i++
+  }
+  return resultado
+}
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
@@ -452,8 +468,10 @@ lista. Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta09 = false
+function contarElementos(lista) {
+  return lista.length
+}
+export const resposta09 = contarElementos
 
 /* Questão 10
 Crie uma função chamada "buscarPorNumeroAtomico" que recebe dois 
@@ -463,8 +481,17 @@ ou null se não encontrar. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta10 = false
+function buscarPorNumeroAtomico(lista, numeroAtomico) {
+  let i = 0
+  while (i < lista.length) {
+    if (lista[i].numeroAtomico === numeroAtomico) {
+      return lista[i]
+    }
+    i++
+  }
+  return null
+}
+export const resposta10 = buscarPorNumeroAtomico
 
 /* Questão 11
 Crie uma função chamada "listarNomesElementos" que recebe a lista 

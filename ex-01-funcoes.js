@@ -368,8 +368,8 @@ um espaço. Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-function nomeCompleto (primeiroNome , sobrenome){
-  return primeiroNome + " " + sobrenome;
+function nomeCompleto(nomes) {
+  return nomes[0] + " " + nomes[1]
 }
 
 export const resposta04 = nomeCompleto

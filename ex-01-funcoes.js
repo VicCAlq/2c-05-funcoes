@@ -394,10 +394,10 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 // Escreva o código da solução abaixo:
 
 function contarTravaLinguas(travaLinguas) {
-  return travaLinguas[0].length
+  return travaLinguas.length;
 }
 
-export const resposta05 = contarTravaLinguas
+export const resposta05 = contarTravaLinguas;
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 

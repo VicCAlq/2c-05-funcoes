@@ -355,7 +355,9 @@ um espaço. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-const nomeCompleto = (primeiroNome, sobrenome) => primeiroNome + " " + sobrenome
+const nomeCompleto = (primeiroNome, sobrenome) => {
+    return `${primeiroNome} ${sobrenome}`
+}
 
 export const resposta04 = nomeCompleto
 
@@ -377,7 +379,9 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-const contarTravaLinguas = listaTravaLingua => listaTravaLingua.length
+const contarTravaLinguas = (listaTravaLingua) => {
+	return listaTravaLingua.length
+}
 
 export const resposta05 = contarTravaLinguas
 
@@ -416,7 +420,9 @@ Envie na resposta a função criada, sem executá-la (basta enviar
 o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-const buscarTravaLinguasComPalavra = palavra => travaLinguas.filter((travaLingua) => travaLingua.includes(palavra))
+const buscarTravaLinguasComPalavra = (palavra) => {
+	return travaLinguas.filter((travaLingua) => travaLingua.includes(palavra))
+}
 
 export const resposta08 = buscarTravaLinguasComPalavra
 
@@ -445,7 +451,9 @@ lista. Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-const contarElementos = listaElemento => listaElemento.length
+const contarElementos = (listaElemento) => {
+	return listaElemento.length
+}
 
 export const resposta09 = contarElementos
 
@@ -457,7 +465,9 @@ ou null se não encontrar. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-const buscarPorNumeroAtomico = (listaElemento, numAtomico) => listaElemento.filter((elemento) => elemento.numeroAtomico === numAtomico)[0] || null
+const buscarPorNumeroAtomico = (listaElemento, numAtomico) => {
+	return listaElemento.filter(elemento => elemento.numeroAtomico == numAtomico)[0] || null
+}
 
 export const resposta10 = buscarPorNumeroAtomico
 

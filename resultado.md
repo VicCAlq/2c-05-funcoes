@@ -1,4 +1,4 @@
-Data de atualização: Dia 05/04/2026 às 21:51:54
+Data de atualização: Dia 06/04/2026 às 10:58:08
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
@@ -6,8 +6,8 @@ Data de atualização: Dia 05/04/2026 às 21:51:54
 |  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected 'João,Silva undefined' to deeply equal 'João Silva' |
-|  5 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected 1 to deeply equal 7 |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected undefined to deeply equal 'Três pratos de trigo para três tigres…' |
 |  7 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
 |  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |

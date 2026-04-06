@@ -1,10 +1,10 @@
-Data de atualização: Dia 06/04/2026 às 11:18:06
+Data de atualização: Dia 06/04/2026 às 11:39:52
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-|  1 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  2 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
 |  4 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
 |  5 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |

@@ -513,17 +513,17 @@ função sem os parênteses)
 // Escreva o código da solução abaixo:
 
 function elementosComNumeroPar(elementos) {
-  let pares = []
+  let pares = [];
 
-  for (let i = 0; i < elementos.length; i++) {
-    if (elementos[i].numero_atomico % 2 === 0) {
-      pares.push(elementos[i])
+  for (let eae = 0; eae < elementos.length; eae++) {
+    if (elementos[eae].numeroAtomico % 2 === 0) {
+      pares.push(elementos[eae]);
     }
   }
 
-  return pares
+  return pares;
 }
 
-export const resposta12 = elementosComNumeroPar
+export const resposta12 = elementosComNumeroPar;
 
 //achei extremamente hard, tive que pedir ajuda aos universitários (essas 3 ultimas são um inferno)

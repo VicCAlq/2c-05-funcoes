@@ -506,7 +506,7 @@ apenas os nomes (strings) dos elementos, na mesma ordem. Envie na
 resposta a função criada, sem executá-la (basta enviar o 
 nome da função sem os parênteses)
 */
-// Escreva o código da solução abaixo:
+// Escreva o código da solução abaixo: 
 function listarNomesElementos(lista) {
   let nomes = [];
   let i = 0;

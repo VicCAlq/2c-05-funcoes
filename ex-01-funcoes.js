@@ -393,8 +393,8 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-function contarTravaLinguas (travaLinguas){
-  return travaLinguas.length
+function contarTravaLinguas(travaLinguas) {
+  return travaLinguas[0].length
 }
 
 export const resposta05 = contarTravaLinguas

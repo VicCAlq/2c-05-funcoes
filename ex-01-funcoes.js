@@ -351,9 +351,9 @@ da função sem os parênteses)
 // Escreva o código da solução abaixo:
 function ehPositivo(numero){
     if(numero > 2){
-        return "true";
+        return true;
     } else {
-        return "false";
+        return false;
     }
 }
 

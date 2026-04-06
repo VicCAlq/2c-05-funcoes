@@ -323,7 +323,7 @@ enviar o nome da função sem os parênteses)
 // Escreva o código da solução abaixo:
 
 function saudacao(){
-  console.log("Bom dia!")
+  return "Bom dia!"
 }
 
 export const resposta01 = saudacao
@@ -336,8 +336,9 @@ enviar o nome da função sem os parênteses)
 // Escreva o código da solução abaixo:
 
 function dobro(numero){
-  return numero * 2
-}
+  numero = numero * 2
+  return numero
+} 
 
 export const resposta02 = dobro
 
@@ -351,9 +352,9 @@ da função sem os parênteses)
 
 function ehPositivo(numero){
   if(numero > 0){
-    return "true"
-  } 
-  return "false"
+    return (true)
+  }
+    return (false)
 }
 
 export const resposta03 = ehPositivo
@@ -423,8 +424,8 @@ executá-la (basta enviar o nome da função sem os parênteses)
 // Escreva o código da solução abaixo:
 
 function contarPalavrasTravaLingua(numero){
-  const palavras = travaLinguas[numero]
-  return palavras.split(" ")
+  return travaLinguas[numero].split(" ").length
+  
 }
 
 export const resposta07 = contarPalavrasTravaLingua
@@ -442,7 +443,7 @@ o nome da função sem os parênteses)
 
  function buscarTravaLinguasComPalavra(palavra){
   let lista = []
-  let contador = 1
+  let contador = 0
   while(contador < travaLinguas.length){
     if(travaLinguas[contador].includes(palavra)){
       lista.push(travaLinguas[contador])

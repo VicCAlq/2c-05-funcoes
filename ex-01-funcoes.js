@@ -368,11 +368,11 @@ um espaço. Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-function nomeCompleto(nomes) {
-  return nomes[0] + " " + nomes[1]
+function nomeCompleto(primeiroNome, sobrenome) {
+  return primeiroNome + " " + sobrenome;
 }
 
-export const resposta04 = nomeCompleto
+export const resposta04 = nomeCompleto;
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [

@@ -410,9 +410,9 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 // Escreva o código da solução abaixo:
 function obterTravaLingua(travaLinguas, indice) {
     return travaLinguas[indice];
-}
+    }
 
-console.log(obterTravaLinguas(travaLinguas, 2));
+console.log(obterTravaLingua(travaLinguas, 2));
 export const resposta06 = obterTravaLingua;
 
 /* Questão 7

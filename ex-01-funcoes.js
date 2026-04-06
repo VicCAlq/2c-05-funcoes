@@ -368,9 +368,11 @@ um espaço. Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
+function nomeCompleto(primeiroNome, sobrenome) {
+  return `${primeiroNome} ${sobrenome}`;
+}
 
-
-export const resposta04 = false
+export const resposta04 = nomeCompleto;
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [
@@ -391,7 +393,11 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-export const resposta05 = false
+function contarTravaLinguas(travaLinguas) {
+  return travaLinguas.length;
+}
+
+export const resposta05 = contarTravaLinguas;
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 
@@ -500,4 +506,16 @@ função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta12 = false
+function elementosComNumeroPar(elementos) {
+  let pares = [];
+
+  for (let eae = 0; eae < elementos.length; eae++) {
+    if (elementos[eae].numeroAtomico % 2 === 0) {
+      pares.push(elementos[eae]);
+    }
+  }
+
+  return pares;
+}
+
+export const resposta12 = elementosComNumeroPar;

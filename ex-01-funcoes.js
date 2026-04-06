@@ -410,9 +410,10 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function contarPalavrasTravaLingua(numb) {
-  return travaLinguas[numb].length
+  let separaTravaLinguas = travaLinguas[numb].split(" ");
+  return separaTravaLinguas.length
 }
-export const resposta07 = false
+export const resposta07 = contarPalavrasTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -424,8 +425,18 @@ Envie na resposta a função criada, sem executá-la (basta enviar
 o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function buscarTravaLinguasComPalavra(palavra){
+  let travaIncluso = []
+  time = 0
+  while(time < travaLinguas.length -1){
+    if(travaLinguas[time].includes(palavra)){
+      travaIncluso.push(travaLinguas[time])
+    }
+    time++
+  }
+}
 
-export const resposta08 = false
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [

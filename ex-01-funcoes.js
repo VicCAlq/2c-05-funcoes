@@ -336,9 +336,8 @@ enviar o nome da função sem os parênteses)
 // Escreva o código da solução abaixo:
 
 function dobro(numero){
-  numero = numero * 2
-  return numero
-} 
+  return numero * 2
+}
 
 export const resposta02 = dobro
 

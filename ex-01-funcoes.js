@@ -516,7 +516,7 @@ function elementosComNumeroPar(elementos) {
   let pares = []
 
   for (let i = 0; i < elementos.length; i++) {
-    if (elementos[i].numeroAtomico % 2 === 0) {
+    if (elementos[i].numero_atomico % 2 === 0) {
       pares.push(elementos[i])
     }
   }

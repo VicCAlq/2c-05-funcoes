@@ -1,17 +1,7 @@
-Data de atualização: Dia 06/04/2026 às 10:59:49
+Data de atualização: Dia 06/04/2026 às 11:10:56
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  8 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected [ …(3) ] to deeply equal [ Array(1) ] |
-|  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
-| 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
-| 11 | Ex 01 | ✅ | ✅ | Nenhum erro |
-| 12 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: Expected ',', got 'string literal'
+At file: /ex01.test.js:101:13 |

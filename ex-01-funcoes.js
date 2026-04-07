@@ -373,7 +373,7 @@ function nomeCompleto(primeiroNome, sobrenome) {
 }
 
 export const resposta04 = nomeCompleto
-console.log (resposta04)
+
 
 
 // Lista para as questões 5 a 8
@@ -394,6 +394,9 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function contarTravaLinguas (lista){
+  return lista.length
+}
 
 export const resposta05 = false
 
@@ -406,7 +409,11 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+function obterTravaLingua(indice) {
+  return travaLinguas[indice];
+}
+
+export const resposta06 = obterTravaLingua
 
 /* Questão 7
 Crie uma função chamada "contarPalavrasTravaLingua" que recebe um 
@@ -418,7 +425,11 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta07 = false
+function contarPalavrasTravaLingua(indice) {
+  return travaLinguas[indice].split(" ").length;
+}
+
+export const resposta07 = contarPalavrasTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -431,7 +442,19 @@ o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+function buscarTravaLinguasComPalavra(palavra) {
+  let filtrados = [];
+  let i = 0;
+  while (i < travaLinguas.length) {
+    if (travaLinguas[i].includes(palavra)) {
+      filtrados.push(travaLinguas[i]);
+    }
+    i++;
+  }
+  return filtrados;
+}
+
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
@@ -459,8 +482,11 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta09 = false
+function contarElementos(lista) {
+  return lista.length;
+}
 
+export const resposta09 = contarElementos
 /* Questão 10
 Crie uma função chamada "buscarPorNumeroAtomico" que recebe dois 
 argumentos: a lista "elementos" e um número atômico. A função deve 
@@ -470,7 +496,16 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta10 = false
+function buscarPorNumeroAtomico(lista, numero) {
+  for (let i = 0; i < lista.length; i++) {
+    if (lista[i].numeroAtomico === numero) {
+      return lista[i];
+    }
+  }
+  return null;
+}
+
+export const resposta10 = buscarPorNumeroAtomico
 
 /* Questão 11
 Crie uma função chamada "listarNomesElementos" que recebe a lista 
@@ -481,7 +516,15 @@ nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta11 = false
+function listarNomesElementos(lista) {
+  let nomes = [];
+  for (let i = 0; i < lista.length; i++) {
+    nomes.push(lista[i].nome);
+  }
+  return nomes;
+}
+
+export const resposta11 = listarNomesElementos
 
 /* Questão 12
 Crie uma função chamada "elementosComNumeroPar" que recebe a lista 
@@ -492,4 +535,14 @@ função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta12 = false
+function elementosComNumeroPar(lista) {
+  let pares = [];
+  for (let i = 0; i < lista.length; i++) {
+    if (lista[i].numeroAtomico % 2 === 0) {
+      pares.push(lista[i]);
+    }
+  }
+  return pares;
+}
+
+export const resposta12 = elementosComNumeroPar

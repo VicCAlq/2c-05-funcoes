@@ -367,8 +367,14 @@ um espaço. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function nomeCompleto(primeiroNome, sobrenome) {
+  return primeiroNome + " " + sobrenome
 
-export const resposta04 = false
+}
+
+export const resposta04 = nomeCompleto
+console.log (resposta04)
+
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [

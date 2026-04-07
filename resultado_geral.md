@@ -1,50 +1,50 @@
-Data de atualização: Dia 06/04/2026 às 11:41:24
+Data de atualização: Dia 07/04/2026 às 15:36:39
  
 
 | Aluno | Qtd. questões acertadas (de 9) | Nota total |
 |-------|---------------------------------|------------|
-| caique-albuquerque-nave | 0 | 0.00 |
-| Yan Arthur | 1 | 15.56 |
-| Letícia Domingos | 11 | 100.00 |
-| Eduardo Oliveira | 0 | 0.00 |
-| Gustavo Alberto | 12 | 100.00 |
-| Cauê Ferreira | 8 | 95.56 |
-| Bruno Gustavo | 12 | 100.00 |
-| Debora Vitória | 5 | 64.44 |
-| Fernandes Gabriel | 5 | 62.22 |
-| Brennda Rykelly | 0 | 0.00 |
-| Arthur Emanuel | 0 | 0.00 |
-| Kamylle Vitória | 9 | 100.00 |
-| Samuel Erivaldo | 0 | 0.00 |
-| Gabriel Vitor | 7 | 82.22 |
-| itzisnotavaliable | 6 | 73.33 |
-| Arthur Lucio | 12 | 100.00 |
-| Davi Neres | 11 | 100.00 |
-| Beatriz Vilaça | 11 | 100.00 |
-| Gabriel Fernando | 9 | 100.00 |
-| henriquerocha-ops | 12 | 100.00 |
-| Renato Marques | 12 | 100.00 |
-| Amanda Vitória | 1 | 15.56 |
-| Thales Henry | 12 | 100.00 |
-| Artur Jude | 0 | 0.00 |
-| Brenda Vilaça | 11 | 100.00 |
-| Abner Ferreira | 2 | 22.22 |
-| Walleysson Ferreira | 0 | 0.00 |
-| Ryan Gabriel | 11 | 100.00 |
-| Vitor Calixto | 0 | 0.00 |
-| João Barros | 8 | 91.11 |
-| Isaac Andrade | 12 | 100.00 |
-| Pedro Victor | 6 | 66.67 |
-| Marcus Vinícios | 8 | 95.56 |
-| Saulo Bizerril | 12 | 100.00 |
-| Davi Barboza | 0 | 0.00 |
-| Matheus Thiago | 6 | 66.67 |
-| Pedro Arthur | 11 | 100.00 |
-| Miguel Albuquerque | 12 | 100.00 |
-| Mateus Antônio | 11 | 100.00 |
-| Luan Murilo | 12 | 100.00 |
-| Bernardo Pedro | 10 | 100.00 |
-| Jonatas Vinícius | 0 | 0.00 |
-| Jeniffer Dantas | 0 | 0.00 |
-| Thulio Barbosa | 12 | 100.00 |
-| Gabriel Primo | 0 | 0.00 |
+| Abner Ferreira (abner-ferreira-nave) | 11 | 100.00 |
+| Amanda Vitória (amanda-vitoria-nave) | 1 | 15.56 |
+| Andrey Antonio (itzisnotavaliable) | 9 | 100.00 |
+| Arthur Emanuel (arthur-emanuel-nave) | 11 | 100.00 |
+| Arthur Lucio (arthur-lucio-nave) | 12 | 100.00 |
+| Artur Jude (ArturJude) | 0 | 0.00 |
+| Beatriz Vilaça (beatriz-vilaca-nave) | 11 | 100.00 |
+| Bernardo Pedro (Bernardo-Pedro-Nave) | 10 | 100.00 |
+| Brenda Vilaça (brenda-vilaca-nave) | 11 | 100.00 |
+| Brennda Rykelly (brennda-rykelly-nave) | 0 | 0.00 |
+| Bruno Gustavo (buenots) | 12 | 100.00 |
+| Caique Albuquerque (caique-albuquerque-nave) | 0 | 0.00 |
+| Cauê Ferreira (caue-ferreira-nave) | 8 | 95.56 |
+| Davi Barboza (DaviBarboza98) | 0 | 0.00 |
+| Davi Neres (davi-neres-nave) | 11 | 100.00 |
+| Debora Vitória (debora-vitoria-nave) | 9 | 100.00 |
+| Eduardo Oliveira (dudu-015) | 0 | 0.00 |
+| Fernandes Gabriel (fernandes-gabriel-nave) | 5 | 62.22 |
+| Gabriel Fernando (gabriel-fernando-nave) | 9 | 100.00 |
+| Gabriel Primo (priimooo1) | 0 | 0.00 |
+| Gabriel Vitor (gabriel-vitor-nave) | 7 | 82.22 |
+| Gustavo Alberto (gustavoalberto-create) | 12 | 100.00 |
+| Henrique Rocha (henriquerocha-ops) | 12 | 100.00 |
+| Isaac Andrade (Isaac-Andrade-Santos-NAVE) | 12 | 100.00 |
+| Jeniffer Dantas (jeniffer-dantas-nave) | 0 | 0.00 |
+| João Barros (Joao-Barros-NAVE) | 8 | 91.11 |
+| Jonatas Vinícius (jonatasvinicius67) | 0 | 0.00 |
+| Kamylle Vitória (Kamylle-Vitoria-Nave) | 9 | 100.00 |
+| Letícia Domingos (letletdaluz) | 11 | 100.00 |
+| Luan Murilo (luan-murilo-nave) | 12 | 100.00 |
+| Marcus Vinícios (marcus-vinicios-nave) | 8 | 95.56 |
+| Mateus Antônio (mateusnave) | 11 | 100.00 |
+| Matheus Thiago (teteuzo) | 9 | 100.00 |
+| Miguel Albuquerque (miguelalbuquerque492) | 12 | 100.00 |
+| Pedro Arthur (pedro-arthur-nave) | 11 | 100.00 |
+| Pedro Victor (pedro-victor-nave) | 7 | 80.00 |
+| Renato Marques (Renato-Marques-Nave) | 12 | 100.00 |
+| Ryan Gabriel (Ryan-Nave2026) | 12 | 100.00 |
+| Samuel Erivaldo (samuelerivaldo-png) | 0 | 0.00 |
+| Saulo Bizerril (saulobizerril-nave) | 12 | 100.00 |
+| Thales Henry (thaleshenry-nave) | 12 | 100.00 |
+| Thulio Barbosa (thuliobarbosa-creator) | 12 | 100.00 |
+| Vitor Calixto (Vitor-Calixto-Paixao) | 0 | 0.00 |
+| Walleysson Ferreira (wally1542) | 0 | 0.00 |
+| Yan Arthur (yan-arthur-nave) | 12 | 100.00 |

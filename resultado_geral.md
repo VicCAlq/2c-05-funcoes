@@ -1,4 +1,4 @@
-Data de atualização: Dia 08/04/2026 às 14:49:08
+Data de atualização: Dia 09/04/2026 às 01:44:25
  
 
 | Aluno | Qtd. questões acertadas (de 9) | Nota total |
@@ -8,7 +8,7 @@ Data de atualização: Dia 08/04/2026 às 14:49:08
 | Andrey Antonio (itzisnotavaliable) | 9 | 100.00 |
 | Arthur Emanuel (arthur-emanuel-nave) | 11 | 100.00 |
 | Arthur Lucio (arthur-lucio-nave) | 12 | 100.00 |
-| Artur Jude (ArturJude) | 0 | 0.00 |
+| Artur Jude (ArturJude) | 9 | 100.00 |
 | Beatriz Vilaça (beatriz-vilaca-nave) | 11 | 100.00 |
 | Bernardo Pedro (Bernardo-Pedro-Nave) | 10 | 100.00 |
 | Brenda Vilaça (brenda-vilaca-nave) | 11 | 100.00 |

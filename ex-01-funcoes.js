@@ -514,4 +514,4 @@ função sem os parênteses)
 function elementosComNumeroPar(elementos) {
   return elementos.filter(el => el.numeroAtomico % 2 === 0);
 }
-export const resposta12 = elementosComNumeroPars
+export const resposta12 = elementosComNumeroPar

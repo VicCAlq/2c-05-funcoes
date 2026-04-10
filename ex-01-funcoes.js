@@ -426,14 +426,15 @@ o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function buscarTravaLinguasComPalavra(palavra){
-  let travaIncluso = []
-  time = 0
+  let travaIncluso = [];
+  let time = 0;
   while(time < travaLinguas.length -1){
     if(travaLinguas[time].includes(palavra)){
-      travaIncluso.push(travaLinguas[time])
+      travaIncluso.push(travaLinguas[time],)
     }
     time++
   }
+  return travaIncluso;
 }
 
 export const resposta08 = buscarTravaLinguasComPalavra
@@ -463,8 +464,19 @@ lista. Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function contarElementos(lista) {
+  let contador = 0;
+  let i = 0;
 
-export const resposta09 = false
+  while (i < lista.length) {
+    contador++;
+    i++;
+  }
+
+  return contador;
+}
+
+export const resposta09 = contarElementos
 
 /* Questão 10
 Crie uma função chamada "buscarPorNumeroAtomico" que recebe dois 

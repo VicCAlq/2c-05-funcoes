@@ -1,4 +1,4 @@
-Data de atualização: Dia 09/04/2026 às 21:15:53
+Data de atualização: Dia 13/04/2026 às 00:17:09
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |

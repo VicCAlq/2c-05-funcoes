@@ -1,17 +1,17 @@
-Data de atualização: Dia 09/04/2026 às 21:11:38
+Data de atualização: Dia 13/04/2026 às 00:13:28
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-|  1 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected undefined to deeply equal 'Bom dia!' |
-|  2 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected undefined to deeply equal 10 |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  5 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  6 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  7 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-| 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-| 11 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-| 12 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected [ Array(1) ] to deeply equal [ …(3) ] |
+|  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 11 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 12 | Ex 01 | ✅ | ✅ | Nenhum erro |

@@ -322,7 +322,7 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function saudacao() {
-  return "Bom Dia!"
+  return "Bom dia!"
 }
 export const resposta01 = saudacao
 //VISTO
@@ -397,8 +397,8 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function obterTravaLingua(numero) {
-  return travaLinguas[numero - 1]
+function obterTravaLingua(indice) {
+  return travaLinguas[indice]
 }
 export const resposta06 = obterTravaLingua
 //VISTO
@@ -477,7 +477,19 @@ ou null se não encontrar. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-export const resposta10 = false
+function buscarPorNumeroAtomico(lista, numeroAtomico) {
+  let i = 0
+
+  while (i < lista.length) {
+    if (lista[i].numeroAtomico === numeroAtomico) {
+      return lista[i]
+    }
+    i++
+  }
+
+  return null
+}
+export const resposta10 = buscarPorNumeroAtomico
 
 /* Questão 11
 Crie uma função chamada "listarNomesElementos" que recebe a lista 
@@ -487,8 +499,18 @@ resposta a função criada, sem executá-la (basta enviar o
 nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function listarNomesElementos(lista) {
+  let nomes = []
+  let i = 0
 
-export const resposta11 = false
+  while (i < lista.length) {
+    nomes.push(lista[i].nome)
+    i++
+  }
+
+  return nomes
+}
+export const resposta11 = listarNomesElementos
 
 /* Questão 12
 Crie uma função chamada "elementosComNumeroPar" que recebe a lista 
